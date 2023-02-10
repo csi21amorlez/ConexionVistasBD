@@ -2,6 +2,8 @@ package Controllers;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +12,8 @@ import Modelos.DTOs.AlumnoDTO;
 
 @Controller
 public class IndexController {
+	
+	ApplicationContext ac = new ClassPathXmlApplicationContext("context.xml");
 	
 	private final Log logs = LogFactory.getLog(getClass());
 	

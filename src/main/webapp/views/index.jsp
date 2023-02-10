@@ -10,9 +10,9 @@
 <body>
 
 	<div class="container shadow">
-		<a <c:url value="formAlumno"/> class="btn btn-dark pl-2">Ir al	formulario de alumnos</a> 
+		<a <c:url value="formAlumno"/> class="btn btn-primary pl-2">Ir al	formulario de alumnos</a> 
 			<a <c:url value="listadoAlumnos"/>
-			class="btn btn-dark">Ir al listado de alumnos</a>
+			class="btn btn-primary">Ir al listado de alumnos</a>
 
 
 

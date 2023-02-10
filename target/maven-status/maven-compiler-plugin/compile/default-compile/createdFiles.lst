@@ -1,0 +1,12 @@
+Modelos\DAL\Alumno\Alumno.class
+Modelos\DAL\Alumno\AlumnoImpl.class
+Modelos\DAL\Consultas\Consultas.class
+Controllers\IndexController.class
+Controllers\FormController.class
+Modelos\DTOs\Convertidores\DtoToImpl.class
+Modelos\DTOs\Convertidores\DtoToService.class
+Modelos\DTOs\Convertidores\ToDtoService.class
+Modelos\DTOs\AlumnoDTO.class
+Modelos\DTOs\Convertidores\ToDtoImpl.class
+Modelos\DAL\Alumno\AlumnoService.class
+Controllers\ListAlumnoController.class
